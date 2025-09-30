@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edits Salon Shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">Edits Salon Shop</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#booking">Booking</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <h1>Look Sharp. Feel Fresh.</h1>
+      <p>Your style, our passion.</p>
+      <a href="#booking" class="btn">Booking Now</a>
+      <h1>50% offer Now</h1>
+      <p>TODAY ONLY</p>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <h2>Our Services</h2>
+    <div class="service-cards">
+      <div class="card">
+        <h3>Haircut</h3>
+        <p>Classic & modern styles tailored to you.</p>
+      </div>
+      <div class="card">
+        <h3>Beard Trim</h3>
+        <p>Sharp edges & perfect shape for your beard.</p>
+      </div>
+      <div class="card">
+        <h3>Shave</h3>
+        <p>Hot towel and smooth shave experience.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Booking Section -->
+  <section class="booking" id="booking">
+    <h2>Book an Appointment</h2>
+    <form id="bookingForm">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <select id="service">
+        <option value="select" selected disabled>--OUR SERVICES--</option>
+        <option value="Haircut">Haircut</option>
+        <option value="Beard Trim">Beard Trim</option>
+        <option value="Shave">Shave</option>
+      </select>
+      <input type="date" id="date" required>
+      <button type="submit" class="btn">Submit</button>
+    </form>
+    <p id="msg"></p>
+  </section>
+
+  <footer style="color: aqua;">
+    <p>© 2025 Edits Barber Shop. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
